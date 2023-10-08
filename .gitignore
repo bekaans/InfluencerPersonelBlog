@@ -50,3 +50,4 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+Blog/wwwroot/lib/jquery/LICENSE.txt
