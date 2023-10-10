@@ -1,9 +1,10 @@
 using Blogger.Data.Context;
+using Blogger.Data.Extensions;
 using Microsoft.EntityFrameworkCore;
 using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
-
+builder.Services.LoadDataLayerExtensions(builder.Configuration);
 builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<AppDbContext>(opt=>opt.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 var app = builder.Build();
