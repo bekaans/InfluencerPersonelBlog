@@ -1,0 +1,11 @@
+C:\Users\Berke Kaan\Desktop\Blogger\Blogger.Service\bin\Debug\net6.0\Blogger.Service.deps.json
+C:\Users\Berke Kaan\Desktop\Blogger\Blogger.Service\bin\Debug\net6.0\Blogger.Service.dll
+C:\Users\Berke Kaan\Desktop\Blogger\Blogger.Service\bin\Debug\net6.0\Blogger.Service.pdb
+C:\Users\Berke Kaan\Desktop\Blogger\Blogger.Service\obj\Debug\net6.0\Blogger.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Berke Kaan\Desktop\Blogger\Blogger.Service\obj\Debug\net6.0\Blogger.Service.AssemblyInfoInputs.cache
+C:\Users\Berke Kaan\Desktop\Blogger\Blogger.Service\obj\Debug\net6.0\Blogger.Service.AssemblyInfo.cs
+C:\Users\Berke Kaan\Desktop\Blogger\Blogger.Service\obj\Debug\net6.0\Blogger.Service.csproj.CoreCompileInputs.cache
+C:\Users\Berke Kaan\Desktop\Blogger\Blogger.Service\obj\Debug\net6.0\Blogger.Service.dll
+C:\Users\Berke Kaan\Desktop\Blogger\Blogger.Service\obj\Debug\net6.0\refint\Blogger.Service.dll
+C:\Users\Berke Kaan\Desktop\Blogger\Blogger.Service\obj\Debug\net6.0\Blogger.Service.pdb
+C:\Users\Berke Kaan\Desktop\Blogger\Blogger.Service\obj\Debug\net6.0\ref\Blogger.Service.dll

@@ -1,5 +1,6 @@
 using Blogger.Data.Context;
 using Microsoft.EntityFrameworkCore;
+using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
 
