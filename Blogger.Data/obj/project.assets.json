@@ -1061,19 +1061,6 @@
           }
         }
       },
-      "Blog.Entity/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "Blogger.Core": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/Blog.Entity.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Blog.Entity.dll": {}
-        }
-      },
       "Blogger.Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -1082,6 +1069,19 @@
         },
         "runtime": {
           "bin/placeholder/Blogger.Core.dll": {}
+        }
+      },
+      "Blogger.Entity/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Blogger.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Blogger.Entity.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Blogger.Entity.dll": {}
         }
       }
     }
@@ -2906,20 +2906,20 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Blog.Entity/1.0.0": {
-      "type": "project",
-      "path": "../Blog.Entity/Blog.Entity.csproj",
-      "msbuildProject": "../Blog.Entity/Blog.Entity.csproj"
-    },
     "Blogger.Core/1.0.0": {
       "type": "project",
       "path": "../Blogger.Core/Blogger.Core.csproj",
       "msbuildProject": "../Blogger.Core/Blogger.Core.csproj"
+    },
+    "Blogger.Entity/1.0.0": {
+      "type": "project",
+      "path": "../Blog.Entity/Blogger.Entity.csproj",
+      "msbuildProject": "../Blog.Entity/Blogger.Entity.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Blog.Entity >= 1.0.0",
+      "Blogger.Entity >= 1.0.0",
       "Microsoft.Data.SqlClient >= 5.1.1",
       "Microsoft.EntityFrameworkCore >= 7.0.11",
       "Microsoft.EntityFrameworkCore.Design >= 7.0.11",
@@ -2959,8 +2959,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Berke Kaan\\Desktop\\Blogger\\Blog.Entity\\Blog.Entity.csproj": {
-              "projectPath": "C:\\Users\\Berke Kaan\\Desktop\\Blogger\\Blog.Entity\\Blog.Entity.csproj"
+            "C:\\Users\\Berke Kaan\\Desktop\\Blogger\\Blog.Entity\\Blogger.Entity.csproj": {
+              "projectPath": "C:\\Users\\Berke Kaan\\Desktop\\Blogger\\Blog.Entity\\Blogger.Entity.csproj"
             }
           }
         }
