@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "ncUIgZ+lRsVaUxj++d+FSu0Jq7pfBLnyMI0J7q1PLhg+ncoAfVOyQH8u18cTjSlmUw7ZwdNN/oi8T64oTNQ/pQ==",
-  "success": true,
+  "dgSpecHash": "uDCHuCRXg5ckuNXCtPasDKYgLwFpzv6QOLSgRPwOw9qPhDbE3b+6Bbhl1HXGkopn+2muRdAU/skXJ6KHmSm64A==",
+  "success": false,
   "projectFilePath": "C:\\Users\\Berke Kaan\\Desktop\\Blogger\\Blog\\Blogger.UI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Berke Kaan\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
@@ -64,5 +64,15 @@
     "C:\\Users\\Berke Kaan\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\Berke Kaan\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'C:\\Users\\Berke Kaan\\Desktop\\Blogger\\Blog.Entity\\Blogger.Entity.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\Users\\Berke Kaan\\Desktop\\Blogger\\Blog.Entity\\Blogger.Entity.csproj",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }

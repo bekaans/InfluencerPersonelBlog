@@ -59,3 +59,9 @@ Blog.Entity/Entities/Article.cs
 Blogger.Entity/obj/Blogger.Entity.csproj.nuget.g (2).props
 Blog.Entity/obj/Blog.Entity.csproj.nuget.g.props
 Blog.Entity/Blogger.Entity.csproj
+.vs/ProjectEvaluation/finalblogwebsite.projects.v7.bin
+*.vsidx
+*.cache
+Blog/obj/Blogger.UI.csproj.nuget.g.props
+*.props
+*.cache
