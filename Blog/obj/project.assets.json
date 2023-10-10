@@ -1049,11 +1049,34 @@
           }
         }
       },
+      "Blog.Entity/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Blogger.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Blog.Entity.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Blog.Entity.dll": {}
+        }
+      },
+      "Blogger.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Blogger.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Blogger.Core.dll": {}
+        }
+      },
       "Blogger.Data/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "C:\\Users\\Berke Kaan\\Desktop\\Blogger\\Blog.Entity\\Blogger.Entity.csproj": "1.0.0",
+          "Blog.Entity": "1.0.0",
           "Microsoft.Data.SqlClient": "5.1.1",
           "Microsoft.EntityFrameworkCore": "7.0.11",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.11"
@@ -2862,6 +2885,16 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "Blog.Entity/1.0.0": {
+      "type": "project",
+      "path": "../Blog.Entity/Blog.Entity.csproj",
+      "msbuildProject": "../Blog.Entity/Blog.Entity.csproj"
+    },
+    "Blogger.Core/1.0.0": {
+      "type": "project",
+      "path": "../Blogger.Core/Blogger.Core.csproj",
+      "msbuildProject": "../Blogger.Core/Blogger.Core.csproj"
+    },
     "Blogger.Data/1.0.0": {
       "type": "project",
       "path": "../Blogger.Data/Blogger.Data.csproj",
@@ -2956,16 +2989,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project 'C:\\Users\\Berke Kaan\\Desktop\\Blogger\\Blog.Entity\\Blogger.Entity.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "C:\\Users\\Berke Kaan\\Desktop\\Blogger\\Blog.Entity\\Blogger.Entity.csproj",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    }
-  ]
+  }
 }

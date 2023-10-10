@@ -65,3 +65,5 @@ Blog.Entity/Blogger.Entity.csproj
 Blog/obj/Blogger.UI.csproj.nuget.g.props
 *.props
 *.cache
+Blog/obj/Debug/net6.0/Blogger.UI.assets.cache
+.vs/ProjectEvaluation/finalblogwebsite.projects.v7.bin

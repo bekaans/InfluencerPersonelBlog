@@ -5,7 +5,7 @@ VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blogger.UI", "Blog\Blogger.UI.csproj", "{FFDC0675-B49F-47B7-B110-F9A6931FB290}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blogger.Entity", "Blog.Entity\Blogger.Entity.csproj", "{B140840C-B90A-4ADD-82A5-57EFB79E683E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blog.Entity", "Blog.Entity\Blog.Entity.csproj", "{B140840C-B90A-4ADD-82A5-57EFB79E683E}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blogger.Data", "Blogger.Data\Blogger.Data.csproj", "{C8DCF2CD-D97E-4473-884E-CCF5AA98585F}"
 EndProject
