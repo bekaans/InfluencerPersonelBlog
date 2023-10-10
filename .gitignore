@@ -57,3 +57,4 @@ Blogger.Data/obj/Debug/net6.0/Blogger.Data.csproj.AssemblyReference.cache
 Blog/bin/Debug/net6.0/Blog.deps.json
 Blog.Entity/Entities/Article.cs
 Blogger.Entity/obj/Blogger.Entity.csproj.nuget.g (2).props
+Blog.Entity/obj/Blog.Entity.csproj.nuget.g.props
