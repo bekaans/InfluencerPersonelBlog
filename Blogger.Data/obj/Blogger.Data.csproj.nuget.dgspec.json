@@ -4,12 +4,12 @@
     "C:\\Users\\Berke Kaan\\Desktop\\Blogger\\Blogger.Data\\Blogger.Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Berke Kaan\\Desktop\\Blogger\\Blog.Entity\\Blogger.Entity.csproj": {
+    "C:\\Users\\Berke Kaan\\Desktop\\Blogger\\Blog.Entity\\Blog.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Berke Kaan\\Desktop\\Blogger\\Blog.Entity\\Blogger.Entity.csproj",
-        "projectName": "Blogger.Entity",
-        "projectPath": "C:\\Users\\Berke Kaan\\Desktop\\Blogger\\Blog.Entity\\Blogger.Entity.csproj",
+        "projectUniqueName": "C:\\Users\\Berke Kaan\\Desktop\\Blogger\\Blog.Entity\\Blog.Entity.csproj",
+        "projectName": "Blog.Entity",
+        "projectPath": "C:\\Users\\Berke Kaan\\Desktop\\Blogger\\Blog.Entity\\Blog.Entity.csproj",
         "packagesPath": "C:\\Users\\Berke Kaan\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Berke Kaan\\Desktop\\Blogger\\Blog.Entity\\obj\\",
         "projectStyle": "PackageReference",
@@ -154,8 +154,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Berke Kaan\\Desktop\\Blogger\\Blog.Entity\\Blogger.Entity.csproj": {
-                "projectPath": "C:\\Users\\Berke Kaan\\Desktop\\Blogger\\Blog.Entity\\Blogger.Entity.csproj"
+              "C:\\Users\\Berke Kaan\\Desktop\\Blogger\\Blog.Entity\\Blog.Entity.csproj": {
+                "projectPath": "C:\\Users\\Berke Kaan\\Desktop\\Blogger\\Blog.Entity\\Blog.Entity.csproj"
               }
             }
           }
