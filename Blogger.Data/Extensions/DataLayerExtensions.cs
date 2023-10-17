@@ -1,6 +1,7 @@
 ﻿using Blogger.Data.Context;
 using Blogger.Data.Repositories.Abstraction;
 using Blogger.Data.Repositories.Concretes;
+using Blogger.Data.UnitOfWorks;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -18,6 +19,7 @@ namespace Blogger.Data.Extensions
         {
             services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
             services.AddDbContext<AppDbContext>(opt => opt.UseSqlServer(config.GetConnectionString("DefaultConnection")));
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
             return services;
         }
     }
