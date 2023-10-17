@@ -1087,6 +1087,20 @@
         "runtime": {
           "bin/placeholder/Blogger.Data.dll": {}
         }
+      },
+      "Blogger.Service/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Blog.Entity": "1.0.0",
+          "Blogger.Data": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Blogger.Service.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Blogger.Service.dll": {}
+        }
       }
     }
   },
@@ -2899,11 +2913,17 @@
       "type": "project",
       "path": "../Blogger.Data/Blogger.Data.csproj",
       "msbuildProject": "../Blogger.Data/Blogger.Data.csproj"
+    },
+    "Blogger.Service/1.0.0": {
+      "type": "project",
+      "path": "../Blogger.Service/Blogger.Service.csproj",
+      "msbuildProject": "../Blogger.Service/Blogger.Service.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "Blogger.Data >= 1.0.0",
+      "Blogger.Service >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 7.0.11"
     ]
   },
@@ -2941,6 +2961,9 @@
           "projectReferences": {
             "C:\\Users\\Berke Kaan\\Desktop\\Blogger\\Blogger.Data\\Blogger.Data.csproj": {
               "projectPath": "C:\\Users\\Berke Kaan\\Desktop\\Blogger\\Blogger.Data\\Blogger.Data.csproj"
+            },
+            "C:\\Users\\Berke Kaan\\Desktop\\Blogger\\Blogger.Service\\Blogger.Service.csproj": {
+              "projectPath": "C:\\Users\\Berke Kaan\\Desktop\\Blogger\\Blogger.Service\\Blogger.Service.csproj"
             }
           }
         }

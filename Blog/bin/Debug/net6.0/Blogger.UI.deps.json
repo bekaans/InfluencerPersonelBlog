@@ -9,6 +9,7 @@
       "Blogger.UI/1.0.0": {
         "dependencies": {
           "Blogger.Data": "1.0.0",
+          "Blogger.Service": "1.0.0",
           "Microsoft.EntityFrameworkCore.Design": "7.0.11"
         },
         "runtime": {
@@ -655,6 +656,15 @@
         "runtime": {
           "Blogger.Data.dll": {}
         }
+      },
+      "Blogger.Service/1.0.0": {
+        "dependencies": {
+          "Blog.Entity": "1.0.0",
+          "Blogger.Data": "1.0.0"
+        },
+        "runtime": {
+          "Blogger.Service.dll": {}
+        }
       }
     }
   },
@@ -1088,6 +1098,11 @@
       "sha512": ""
     },
     "Blogger.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Blogger.Service/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -9,3 +9,11 @@ C:\Users\Berke Kaan\Desktop\Blogger\Blogger.Service\obj\Debug\net6.0\Blogger.Ser
 C:\Users\Berke Kaan\Desktop\Blogger\Blogger.Service\obj\Debug\net6.0\refint\Blogger.Service.dll
 C:\Users\Berke Kaan\Desktop\Blogger\Blogger.Service\obj\Debug\net6.0\Blogger.Service.pdb
 C:\Users\Berke Kaan\Desktop\Blogger\Blogger.Service\obj\Debug\net6.0\ref\Blogger.Service.dll
+C:\Users\Berke Kaan\Desktop\Blogger\Blogger.Service\bin\Debug\net6.0\Blog.Entity.dll
+C:\Users\Berke Kaan\Desktop\Blogger\Blogger.Service\bin\Debug\net6.0\Blogger.Core.dll
+C:\Users\Berke Kaan\Desktop\Blogger\Blogger.Service\bin\Debug\net6.0\Blogger.Data.dll
+C:\Users\Berke Kaan\Desktop\Blogger\Blogger.Service\bin\Debug\net6.0\Blog.Entity.pdb
+C:\Users\Berke Kaan\Desktop\Blogger\Blogger.Service\bin\Debug\net6.0\Blogger.Data.pdb
+C:\Users\Berke Kaan\Desktop\Blogger\Blogger.Service\bin\Debug\net6.0\Blogger.Core.pdb
+C:\Users\Berke Kaan\Desktop\Blogger\Blogger.Service\obj\Debug\net6.0\Blogger.Service.csproj.AssemblyReference.cache
+C:\Users\Berke Kaan\Desktop\Blogger\Blogger.Service\obj\Debug\net6.0\Blogger.Service.csproj.CopyComplete
