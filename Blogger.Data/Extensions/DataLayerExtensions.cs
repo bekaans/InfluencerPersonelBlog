@@ -1,5 +1,7 @@
-﻿using Blogger.Data.Repositories.Abstraction;
+﻿using Blogger.Data.Context;
+using Blogger.Data.Repositories.Abstraction;
 using Blogger.Data.Repositories.Concretes;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using System;
@@ -15,6 +17,7 @@ namespace Blogger.Data.Extensions
         public static IServiceCollection LoadDataLayerExtensions(this IServiceCollection services,IConfiguration config)
         {
             services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
+            services.AddDbContext<AppDbContext>(opt => opt.UseSqlServer(config.GetConnectionString("DefaultConnection")));
             return services;
         }
     }
