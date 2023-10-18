@@ -19,7 +19,7 @@ namespace Blog.Controllers
 
         public async Task<IActionResult> Index()
         {
-            var articles = await articleService.GetAllArticle();
+            var articles = await articleService.GetAllArticlesAsync();
             return  View(articles);
         }
 

@@ -9,7 +9,7 @@ namespace Blogger.Service.Services.Abstraction
 {
     public interface IArticleService
     {
-        Task<List<Article>> GetAllArticle();
+        Task<List<Article>> GetAllArticlesAsync();
 
     }
 }

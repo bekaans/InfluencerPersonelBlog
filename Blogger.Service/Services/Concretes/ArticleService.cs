@@ -17,7 +17,7 @@ namespace Blogger.Service.Services.Concretes
             this.unitOfWork = unitOfWork;
         }
 
-        public async Task<List<Article>> GetAllArticle()
+        public async Task<List<Article>> GetAllArticlesAsync()
         {
             return await unitOfWork.GetRepository<Article>().GetAllAsync(); 
         }
