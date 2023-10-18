@@ -76,3 +76,4 @@ Blog/obj/project.assets.json
 Blog/Areas/Admin/Views/Shared/_Layout.cshtml
 Blog/wwwroot/sneat-1.0.0/assets/img/icons/unicons/paypal.png
 Blog/wwwroot/sneat-1.0.0/scss/_bootstrap-extended/_forms.scss
+Blog/wwwroot/sneat/.eslintrc.json
