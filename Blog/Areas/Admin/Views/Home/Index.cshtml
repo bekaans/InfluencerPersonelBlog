@@ -1,0 +1,15 @@
+﻿
+@model List<Article>
+<h1>Admin Area İçerisindesiniz</h1>
+<br />
+<br />
+
+@foreach(var Article in Model)
+{
+    <h1>@Article.Title</h1>
+    <br />
+    <h3>@Article.Content</h3>
+    <br />
+    <h3>@Article.CreatedBy</h3>
+    <br />
+}
