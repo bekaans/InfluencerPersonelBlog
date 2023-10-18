@@ -74,3 +74,4 @@ Blog/obj/Debug/net6.0/Blogger.UI.assets.cache
 .vs/FinalBlogWebsite/FileContentIndex/5e3d4761-7712-4b16-92ff-ec6b03342856.vsidx
 Blog/obj/project.assets.json
 Blog/Areas/Admin/Views/Shared/_Layout.cshtml
+Blog/wwwroot/sneat-1.0.0/assets/img/icons/unicons/paypal.png
