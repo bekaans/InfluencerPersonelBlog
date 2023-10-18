@@ -7,7 +7,7 @@ using System.Reflection;
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.LoadDataLayerExtensions(builder.Configuration);
 builder.Services.LoadServiceLayerExtensions();
-builder.Services.AddControllersWithViews();
+builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation();
 var app = builder.Build();
 if (!app.Environment.IsDevelopment())
 {
@@ -18,7 +18,14 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 app.UseRouting();
 app.UseAuthorization();
-app.MapControllerRoute(
-    name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+
+app.UseEndpoints(endpoints =>
+{
+    endpoints.MapAreaControllerRoute(
+        name: "Admin",
+        areaName: "Admin",
+        pattern:"Admin/{controller=Home}/{action=Index}/{id?}"
+        );
+    endpoints.MapDefaultControllerRoute();
+});
 app.Run();
