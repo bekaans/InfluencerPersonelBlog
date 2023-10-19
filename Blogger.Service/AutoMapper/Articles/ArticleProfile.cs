@@ -11,7 +11,7 @@ namespace Blogger.Service.AutoMapper.Articles
 {
     public class ArticleProfile : Profile
     {
-        protected ArticleProfile()
+        public ArticleProfile()
         {
             CreateMap<ArticleDTO, Article>().ReverseMap();
         }
