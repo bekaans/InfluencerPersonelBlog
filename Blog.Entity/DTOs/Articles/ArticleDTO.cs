@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Blog.Entity.DTOs.Articles
 {
-    public class ArticleDTO
+    public class ArticleDTO 
     {
         public Guid Id { get; set; }
         public string Title { get; set; }

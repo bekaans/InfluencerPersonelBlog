@@ -403,3 +403,5 @@ C:\Users\Berke Kaan\Desktop\Blogger\Blog\bin\Debug\net6.0\tr\Microsoft.CodeAnaly
 C:\Users\Berke Kaan\Desktop\Blogger\Blog\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
 C:\Users\Berke Kaan\Desktop\Blogger\Blog\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
 C:\Users\Berke Kaan\Desktop\Blogger\Blog\obj\Debug\net6.0\Blogger.UI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Berke Kaan\Desktop\Blogger\Blog\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\Berke Kaan\Desktop\Blogger\Blog\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
